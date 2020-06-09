@@ -1,0 +1,6 @@
+curl -X DELETE localhost:3001/api/persons/1
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name":"Sam","number":"123"}' \
+  http://localhost:3001/api/persons

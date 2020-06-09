@@ -1,0 +1,3 @@
+node_modules
+db_orig.json
+.env
